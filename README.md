@@ -1,17 +1,15 @@
-# Sodocan
-[![Travis Status](https://travis-ci.org/sodocan/sodocan.js.svg?branch=master)](https://travis-ci.org/sodocan/sodocan.js)
 
 # Sodocan.js
 
 > Crowdsourced docs, generated from source code.
 
-Overview
+# Overview
 Sodocan.js is a tool to create well laid out, and easy to read, crowd sourced documentation. It has 3 main components. 
   * [The Parser:](./parser/README.md) This creates the skeleton for the docs. Function names, and their inputs are automatically parsed. You can also mark them up with the javadoc notation that you are already familiar with to add more info easily. 
   * [The API server:](./Server/README.md) The parser sends a json object to our server which hosts all the data. Our server has a well designed query system allowing you get only the data you want. You can, of course, host your own version of our server. 
   * [Blueprints:](./blueprints/README.md) These templates are the pages the users will actually see. They are populated by the data from API server. Our default is a clean, single page angular template. We also offer a 'common' file which provides all the convienence functions if you want to develop our own template with a different framework. These get hosted anywhere. You can even easily have 2 different templates point to the same data.
 
-Getting Started
+# Getting Started
 Setting up your docs with sodocan is straightforward - follow these steps to get up and running.
 
 1.  Install our parser module from npm.  ```npm install -g sodocan-parser```
@@ -38,12 +36,8 @@ This template works well, but you're looking for more flexibility with your fron
 7.  That's it! The template will be populated with your docs, and other users can upvote entries and add new ones.
 Watch your docs improve, and enjoy.      
 
-Team
-
+# Team
+  - __Development Team Members__: Leo Thorp, Joyce Liu, James Yokobosky
   - __Product Owner__: Corey Wolff
   - __Scrum Master__: Lai 'Lain' Jiang
-  - __Development Team Members__: Joyce Liu, James Yokobosky, Leo Thorp
 
-
-Currently hosted docs:
-  * to come later 
